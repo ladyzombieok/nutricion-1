@@ -12,6 +12,7 @@
     </head>
     <body>
         @include('components.header')
-
+        @include('components.body')
+        @include('components.footer')
     </body>
 </html>
