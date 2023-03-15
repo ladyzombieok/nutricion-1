@@ -1,8 +1,10 @@
 .header {
+    background: black;
     height: 100vh;
     position: relative;
 }
 .header-img {
+    opacity: 0.5;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -13,11 +15,12 @@
     right: 50px;
 }
 .navigation-link {
+    font-family: $main_font;
     font-size: large;
     font-weight: bold;
-    color: black;
+    color: navajowhite;
     padding: 20px;
-    background-color: #dcfb2f;
+    // background-color: #dcfb2f;
     // background-color: rgb(238, 247, 255);
     border-radius: 20px;
     text-decoration: none;
@@ -31,6 +34,5 @@
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
-   text-shadow: 4px 4px black;
-
+    text-shadow: 4px 4px black;
 }

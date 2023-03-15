@@ -12,7 +12,9 @@
     </head>
     <body>
         @include('components.header')
-        @include('components.body')
+        @include('components.teaser')
+        @include('components.nutritionist')
         @include('components.footer')
+
     </body>
 </html>
