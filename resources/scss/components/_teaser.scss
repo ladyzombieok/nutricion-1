@@ -1,12 +1,17 @@
 .teaser {
     margin: 5rem 0;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     padding: 1rem;
+    min-height: 100vh;
+    align-items: center;
 }
 .container {
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     text-align: center;
     line-height: 35px;
+    flex: 0 1 350px;
 }
 .sub-header {
     text-align: center;

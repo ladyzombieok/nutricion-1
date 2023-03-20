@@ -1,7 +1,11 @@
 .header {
     background: black;
-    height: 100vh;
+    height: 50vh;
     position: relative;
+    
+    .startpage & {
+        height: 100vh;
+    }
 }
 .header-img {
     opacity: 0.5;

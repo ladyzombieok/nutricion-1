@@ -2,19 +2,24 @@
     margin: 5rem 0;
     display: flex;
     padding: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-.team-header {
+.nutritionist_team {
+    flex: 0 1 350px;
+}
+.header-h2 {
     font-size: 50px;
     text-align: center;
     padding: 2.5rem;
 }
-.nutritionist_header {
+.header-h3 {
     font-size: 30px;
     font-weight: bold;
     padding: 1.5rem 0;
     text-align: center;
 }
-.nutritionist_description {
+.description {
     font-size: 22px;
     text-align: center;
 }
