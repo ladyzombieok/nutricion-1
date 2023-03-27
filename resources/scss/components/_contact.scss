@@ -1,0 +1,36 @@
+form {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: aquamarine;
+
+    label {
+        display: block;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+    }
+
+    textarea, select, 
+    input:not([type="submit"]) {
+        padding: 1rem;
+        display: block;
+        width: 100%;
+        background-color:whitesmoke;
+        border: 1px solid black;
+        border-radius: 3rem;
+        margin-bottom: 2rem;
+    }
+    textarea {
+        height: 15rem;
+        padding: 2rem;
+    }
+
+    .botton {
+        background-color: rgb(195, 46, 182);
+        font-weight: bold;
+        border: 1px solid black;
+        padding: 1rem;
+        border-radius: 35px;
+    }
+}
